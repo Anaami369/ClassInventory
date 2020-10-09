@@ -76,12 +76,6 @@ namespace ClassInventory
             outputLabel.Text = player.name + "\n" + player.age + "\n" + player.team + "\n" + player.position;
 
             // TODO - else show not found message
-            //int index = classIn.FindIndex(n => n.name == name);
-
-            //if (index < 0)
-            //{
-            //    outputLabel.Text = "player does not exist";
-            //}
         }
 
         private void showButton_Click(object sender, EventArgs e)
